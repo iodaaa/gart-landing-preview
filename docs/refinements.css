@@ -1,0 +1,14 @@
+/* Second rendered pass: clear type wrapping, tablet crops, material readability. */
+h2{line-height:1.12}.hero h1{line-height:1.08}.section-heading{min-height:54px}
+.material-photo img{width:200%;height:200%;object-fit:fill;max-width:none;left:0;top:0}.stone-marble img{left:-100%}.stone-glass img{top:-100%}.stone-metal img{left:-100%;top:-100%}
+.faq h2,.final-inner h2{line-height:1.13}
+.upload-preview>div{min-width:0}.field-label{min-width:0}.material-label p{font-size:11px}
+@media(min-width:761px) and (max-width:1000px){
+ .header nav{display:none;position:absolute;top:90px;left:0;right:0;background:#f8f6f0;padding:15px 25px;flex-direction:column;gap:0;box-shadow:0 12px 20px #29292410}.header nav.is-open{display:flex}.header nav a{font-size:14px;padding:13px;width:100%}.header-cta{margin-left:auto}.menu-toggle{display:flex;flex-direction:column;gap:6px;justify-content:center;align-items:center;width:40px;height:44px;padding:0;background:none;border:0;flex-shrink:0}.menu-toggle span{width:23px;height:1px;background:var(--text)}
+ .hero{height:740px}.hero h1{font-size:47px}.hero-copy{padding:15px 0 30px}.hero-actions{gap:12px}.hero-values{flex-direction:column;align-items:start;gap:13px;margin-top:24px}.hero-values span br{display:initial}.hero-values svg{width:24px;height:24px}.hero-art{height:360px;align-self:center}.hero-scene{width:170%;left:-70%;object-fit:cover}
+ .product-grid{grid-template-columns:1fr 1fr}.product-image{aspect-ratio:1.2}.product-title{min-height:34px}.product-copy{min-height:155px}.section-note{display:none}.catalog-row{align-items:start}.catalog-row p{max-width:280px}.catalog-row .text-link{white-space:normal;font-size:13px;gap:12px}
+ .quiz-shell{grid-template-columns:57% 43%}.quiz-left{padding:32px 25px}.quiz-entry h2{font-size:39px}.entry-progress{max-width:270px}.quiz-options{grid-template-columns:1fr}.quiz-option{min-height:52px}.contact-methods{flex-direction:column}.quiz-inputs{grid-template-columns:1fr}.quiz-shell.is-started .quiz-visual{min-height:0}.question-title{font-size:32px}
+ .material-gallery{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}.material-photo{height:210px}.material-label{display:flex}.order-steps{grid-template-columns:1fr 1fr}.order-steps h3{min-height:60px}.workshop{gap:5%}.workshop h2{font-size:37px}.faq{gap:5%}.faq h2{font-size:37px}
+}
+@media(max-width:760px){.hero h1{font-size:49px;line-height:1.08}.header-cta{font-size:11px;padding:10px 12px}.hero-art{margin-top:8px}.hero-values{margin-top:23px;margin-bottom:14px}.product-title{line-height:1.14}.quiz-entry h2{line-height:1.12}.materials-header h2{line-height:1.12}.order-section h2{line-height:1.15}.faq h2,.final-inner h2{line-height:1.15}}
+
